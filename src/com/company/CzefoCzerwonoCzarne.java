@@ -158,7 +158,6 @@ public class CzefoCzerwonoCzarne {
         while (wezel != TNULL){
 //            System.out.println(wezel.slowo.compareTo(haslo));
             if (wezel.slowo.compareTo(haslo) == 0){
-                System.out.println("Wchodzi");
                 z = wezel;
             }
 
@@ -170,7 +169,7 @@ public class CzefoCzerwonoCzarne {
         }
 
         if (z == TNULL){
-            System.out.println("Nie ma takiego słowa!!! HAHAHAHA \n");
+            System.out.println("Nie ma takiego słowa\n");
             return;
         }
 
@@ -472,14 +471,6 @@ public class CzefoCzerwonoCzarne {
         int len1, len2;
         len1 = o1.length();
         len2 = o2.length();
-
-//        if(o1 != null) len1 = o1.length();
-//        else len1 = 0;
-//
-//        if (o2 != null) len2 = o2.length();
-//        else len2 = 0;
-//
-//        if (o1 == null || o2 == null) return len1 - len2;
 
         char[] s1, s2;
         s1 = o1.toCharArray();
